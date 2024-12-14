@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Asterisco = seletor universal, representa todos 
+os elementos serão afetados */
+
+* {	
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+/*Cor de fundo*/
+
+  background:white;
+
+}
+
+main {
+    margin: 10px 30px 30px;
+    text-align: justify;
+}
+
+#banner	 {
+    width: 100%;
+    margin-top: 50px;
+	   margin-bottom: 30px;
+}
+
+h1 {
+    background: black;
+    color: white;
+    text-align: center;	
+    width: 100%;	
+}
+
+a hover {
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.imagem {
+    width: 50%;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.linkdeco {
+    text-decoration: none;
+    color: black;
+}
+
+.margem {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.formstyle {
+background: black;
+color: white;
+border-radius: 30px;
+padding: 22px;
+text-align: center;
+}
+
+.rodape {
+    background-color: WhiteSmoke;
+}
+
+.carrossel {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+/*Abaixo formatação texto da página index*/
+
+
+#bem_vindo{
+    font-size: 35px;
+    text-align: center;
+ } 
+
+#lead {
+    font-size: 20px;
+}
+
+/* Adicione margens à tabela */
+table {
+    margin: 20px;
+    border-collapse: collapse; /* Mescla as bordas da tabela */
+}
+th, td {
+    border: 1px solid black; /* Adicione bordas às células */
+    padding: 5px; /* Adicione espaço interno às células */
+}
